@@ -1,0 +1,14 @@
+python mytask_classifier.py\
+  --bert_model="bert-base-chinese" \
+  --data_dir="./data/Hotel_comment" \
+  --task_name="mytask_al_single" \
+  --output_dir="./output" \
+  --max_seq_length=512 \
+  --do_train=True \
+  --do_eval=True \
+  --train_batch_size=16 \
+  --eval_batch_size=16 \
+  --learning_rate=2e-5 \
+  --num_train_epochs=5 \
+  --log_dir="./log/" \
+  --part_index=1
