@@ -30,3 +30,26 @@ Pycharm
 - `preprocess.py`：包含BERT的输入预处理
 - `util.py`：包含有用函数
 - `run.sh`：脚本文件，可在Linux下运行，包含参数的赋值
+
+
+##### Environments
+
+- `pytorch` == 1.4.0, `python` == 3.6, `pytorch_pretrained_bert` == 0.6.2 (Version needs to match exactly!)
+- `argparse`, `pandas`, `glob`, `sklearn`, `numpy`（Please refer to `requirements.txt`）.
+
+##### IDE
+
+Pycharm
+
+##### File structure
+
+- `data` folder: 
+  - `Hotel_comment` folder: Chinese comment of a hotel，binary classification task;
+  - `cnews` folder: Chinese news paragraph，multi classification task;
+- `mytask_classifier.py`: entrance file
+- `config.`: includes the definitions of parameters required at runtime, parameters can be assigned through the `run.sh` script file
+- `data.py`: includes the processing of the original data set to form a structured data set
+- `model.py`：includes the model code for text classification with BERT, which contains the single-label/multi-label implementations;
+- `preprocess.py`：includes the input preprocessing for BERT
+- `util.py`：includes some useful functions
+- `run.sh`：script file, runnable under Linux, containing parameter assignments
