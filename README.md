@@ -36,6 +36,7 @@ Pycharm
 
 
 
+
 ##### Environments
 
 - `pytorch` == 1.4.0, `python` == 3.6, `pytorch_pretrained_bert` == 0.6.2 (Version needs to match exactly!)
@@ -57,3 +58,5 @@ Pycharm
 - `preprocess.py`：includes the input preprocessing for BERT
 - `util.py`：includes some useful functions
 - `run.sh`：script file, runnable under Linux, containing parameter assignments
+
+
