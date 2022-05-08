@@ -1,4 +1,4 @@
-# Chinese_text_classification_pytorch_bert
+# Chinese-text-classification-pytorc-bert
 Chinese text classification (include single-label and multi-label version), using pytorch &amp; BERT
 
 中文文本分类任务（含单标签和多标签分类）。
